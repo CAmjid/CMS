@@ -1,3 +1,4 @@
+import 'package:c_m_s_report_labortary/view/dental_page/dental_test_add.dart';
 import 'package:c_m_s_report_labortary/view/home_page/home_view.dart';
 
 import 'package:flutter/material.dart';
@@ -12,7 +13,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Header(),
+      home: DentalTestAdd(),
     );
   }
 }
