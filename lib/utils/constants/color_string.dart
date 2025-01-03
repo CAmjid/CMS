@@ -8,4 +8,7 @@ class AppColors {
   Color darkTextColor = Color(0xFF0867A6);
   Color primaryTextColor = Colors.white;
   Color normalTextColor = Colors.black;
+  Color filledColor = Color(0xFFF1FDFF);
+  Color hintTextColor = Color(0xFFA9B2B3);
+  
 }

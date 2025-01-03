@@ -52,10 +52,10 @@ class Header extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: size.width * 0.03),
               child: Row(
                 children: [
-                  NetworkImageView(
-                    url:
+                  ImageView(
+                    imageSource:
                         "https://imgs.search.brave.com/StlxyBoQ0njPZKEq3Y0eOAO_fMzK-NeceVXKMiXvBR8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzY2LzM5LzU0/LzM2MF9GXzE2NjM5/NTQwMl9VY2JhUzVa/NVRqMXJFYk12emhI/UjFVN0RwQ2dDV2Qz/ci5qcGc",
-                    imageHight: 60,
+                    imageHeight: 60,
                     imageWidth: 60,
                     isCircularImage: true,
                   ),
